@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="BdF-IX-5Cb">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="BdF-IX-5Cb">
                                 <rect key="frame" x="-2" y="637" width="379" height="31"/>
                                 <connections>
                                     <action selector="DateSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="idc-3H-B4u"/>
@@ -40,38 +40,38 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUD-vT-Iam">
-                                <rect key="frame" x="203" y="625" width="172" height="21"/>
+                                <rect key="frame" x="202" y="618" width="172" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="172" id="n4D-pC-ADj"/>
+                                    <constraint firstAttribute="width" constant="172" id="ly6-be-Z4N"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last 24 Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1e-gt-C3y">
-                                <rect key="frame" x="-1" y="626" width="203" height="21"/>
+                                <rect key="frame" x="-1" y="617" width="203" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.60932552829260755" blue="0.0020637615002093712" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="01A-dm-z8b"/>
-                            <constraint firstItem="nUD-vT-Iam" firstAttribute="leading" secondItem="c1e-gt-C3y" secondAttribute="trailing" constant="1" id="0k8-61-Sag"/>
-                            <constraint firstItem="BdF-IX-5Cb" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="21O-ah-IhR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YCG-Zw-Gop" secondAttribute="trailing" constant="-15" id="9W1-9K-g70"/>
-                            <constraint firstItem="nUD-vT-Iam" firstAttribute="top" secondItem="Imi-m4-kJC" secondAttribute="bottom" constant="7" id="FFG-qL-xt0"/>
-                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="leading" secondItem="c1e-gt-C3y" secondAttribute="leading" id="GJr-J3-KGQ"/>
-                            <constraint firstAttribute="trailing" secondItem="Imi-m4-kJC" secondAttribute="trailing" id="Gxd-yV-3Ay"/>
-                            <constraint firstItem="nUD-vT-Iam" firstAttribute="trailing" secondItem="BdF-IX-5Cb" secondAttribute="trailing" id="HM1-Op-LLc"/>
-                            <constraint firstItem="Imi-m4-kJC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HgZ-Os-Mz8"/>
-                            <constraint firstItem="c1e-gt-C3y" firstAttribute="top" secondItem="Imi-m4-kJC" secondAttribute="bottom" constant="8" symbolic="YES" id="Ntf-dc-FA8"/>
-                            <constraint firstAttribute="bottom" secondItem="c1e-gt-C3y" secondAttribute="bottom" constant="20" symbolic="YES" id="UKz-3f-hPz"/>
-                            <constraint firstItem="Imi-m4-kJC" firstAttribute="leading" secondItem="BdF-IX-5Cb" secondAttribute="leading" id="UN4-kY-goa"/>
-                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-17" id="ZX6-Sp-4gf"/>
-                            <constraint firstItem="Imi-m4-kJC" firstAttribute="top" secondItem="YCG-Zw-Gop" secondAttribute="bottom" id="hAb-bV-v7U"/>
-                            <constraint firstItem="Imi-m4-kJC" firstAttribute="trailing" secondItem="nUD-vT-Iam" secondAttribute="trailing" id="ySy-9Y-6xo"/>
+                            <constraint firstItem="nUD-vT-Iam" firstAttribute="leading" secondItem="c1e-gt-C3y" secondAttribute="trailing" id="5lx-Od-ght"/>
+                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="trailing" secondItem="nUD-vT-Iam" secondAttribute="trailing" id="8y2-SU-P9V"/>
+                            <constraint firstItem="Imi-m4-kJC" firstAttribute="trailing" secondItem="BdF-IX-5Cb" secondAttribute="trailing" id="AyR-Oe-4KT"/>
+                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="leading" secondItem="c1e-gt-C3y" secondAttribute="leading" id="F9B-TU-1Kt"/>
+                            <constraint firstItem="Imi-m4-kJC" firstAttribute="leading" secondItem="BdF-IX-5Cb" secondAttribute="leading" id="H9U-KC-fVf"/>
+                            <constraint firstItem="BdF-IX-5Cb" firstAttribute="top" secondItem="Imi-m4-kJC" secondAttribute="bottom" constant="19" id="Kic-o4-r1h"/>
+                            <constraint firstItem="Imi-m4-kJC" firstAttribute="top" secondItem="YCG-Zw-Gop" secondAttribute="bottom" id="OMJ-bh-6VR"/>
+                            <constraint firstAttribute="trailing" secondItem="Imi-m4-kJC" secondAttribute="trailing" id="PYf-EE-Im7"/>
+                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-17" id="RPm-u9-N4P"/>
+                            <constraint firstItem="Imi-m4-kJC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fMA-S5-rGK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="c1e-gt-C3y" secondAttribute="bottom" constant="29" id="kjO-aT-C0P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YCG-Zw-Gop" secondAttribute="trailing" constant="-15" id="nSH-f2-qV5"/>
+                            <constraint firstItem="BdF-IX-5Cb" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="pTh-4V-CI4"/>
+                            <constraint firstItem="YCG-Zw-Gop" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qar-Wi-kiF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nUD-vT-Iam" secondAttribute="bottom" constant="28" id="wTn-DY-0ua"/>
                         </constraints>
                     </view>
                     <connections>
